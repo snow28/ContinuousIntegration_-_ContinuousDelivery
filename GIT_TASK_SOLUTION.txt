@@ -1,15 +1,20 @@
-1)
+1) Creating new branch and switch to it:
 
-git branch task1-feature
-git checkout task1-feature
+- git branch task1-feature
+- git checkout task1-feature
 
 2) Commands to sequentially  add commits:
 
-git add .
-git commit -m "commit_name"
-git push -u origin task1-feature
+- git add .
+- git commit -m "commit_name"
+- git push -u origin task1-feature
 
 3)  Pull these changes to the main branch:
 
 - git rebase master
-- 
+(In next line we take commit hash and inject changes from that commit to main branch)
+- git cherry-pick 1efab8cae7636539a9e244d3396320622eb2a83d
+
+4)
+
+- git blame GIT_TASK_SOLUTION.txt
