@@ -1,0 +1,16 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'com.builders.services'
+}
+
+dependencies {
+    implementation project(':utils')
+    testImplementation 'junit:junit:4.13.2'
+}
