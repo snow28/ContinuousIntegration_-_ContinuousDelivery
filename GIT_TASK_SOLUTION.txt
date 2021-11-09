@@ -1,0 +1,12 @@
+
+1)
+git branch task1-feature
+git checkout task1-feature
+
+2) Commands to sequentially  add commits
+git add .
+git commit -m "commit_name"
+git push -u origin task1-feature
+
+3)
+
