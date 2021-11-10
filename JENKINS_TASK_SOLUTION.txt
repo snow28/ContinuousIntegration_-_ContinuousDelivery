@@ -65,7 +65,11 @@ pipeline {
     }
 }
 
-4. Should build when SCM has changes.
+4. Should build when SCM has changes. We will have to use webhook to toggle the event. ($webhook-job)
+
+- I created multibranch pipeline for this job;
+- First I created new Github token and connected it to the Jenkins inside System configurations.
+-
 
 
 5. Should build every night at 2:00 AM.
