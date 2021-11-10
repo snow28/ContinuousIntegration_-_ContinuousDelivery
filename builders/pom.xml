@@ -7,6 +7,7 @@
     <groupId>com.kachailo.app</groupId>
     <artifactId>build-tools-exercise</artifactId>
     <version>1.8-SNAPSHOT</version>
+
     <packaging>pom</packaging>
 
     <name>main-module</name>
