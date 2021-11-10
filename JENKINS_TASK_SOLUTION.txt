@@ -5,6 +5,7 @@ Folder: \AppData\Local\Jenkins\.jenkins\workspace\CI-CD
 - git clone https://github.com/snow28/ContinuousIntegration_-_ContinuousDelivery.git ./
 
 
+
 2. Create build job (name: release)
 
 pipeline {
@@ -67,8 +68,10 @@ pipeline {
 4. Should build when SCM has changes. We will have to use webhook to toggle the event. ($webhook-job)
 
 - I created multibranch pipeline for this job;
-- First I created new Github token and connected it to the Jenkins inside System configurations.
--
+- I created new Github token and connected it to the 'Branch Source' of pipeline;
+Username: githubUsername
+Password: token
+- After that repo is connected to our pipeline
 
 
 5. Should build every night at 2:00 AM.
